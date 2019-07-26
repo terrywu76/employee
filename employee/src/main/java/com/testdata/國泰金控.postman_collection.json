@@ -1,0 +1,365 @@
+{
+	"id": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+	"name": "國泰金控",
+	"description": "",
+	"order": [
+		"760aa000-b342-d089-86b5-036b7e9e64cf",
+		"3c6be4c6-1a67-866c-c2a5-6400608f93ba",
+		"809b5c68-4e5e-c2a2-f872-8e7ec01ccae7",
+		"1040fcb3-9568-e99d-6255-2036b0a67260",
+		"ca53fe6c-dd43-a260-dc1c-b5dc038a8fd9",
+		"cf4366b2-9d1b-dc48-23fa-dcb821a92bd8",
+		"2246062a-16c0-54fa-02e3-c89d7a74e6f9",
+		"3b241810-a46b-0351-3364-24a4632b6271",
+		"262e63ba-3862-57e6-93aa-49a4d3148932",
+		"0cf7bc35-57a1-865b-75bb-3fd31243760d",
+		"543698d7-e8d7-fce3-9630-014e9a480c7e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1563938925384,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0cf7bc35-57a1-865b-75bb-3fd31243760d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/deleteDepartment",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"data": [
+				{
+					"key": "id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "刪除部門",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1564050927382,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1040fcb3-9568-e99d-6255-2036b0a67260",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/deleteEmployee",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "刪除員工",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1564044790132,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2246062a-16c0-54fa-02e3-c89d7a74e6f9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/findDepartmentById",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "查詢部門by Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1564050786459,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "262e63ba-3862-57e6-93aa-49a4d3148932",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/updateDepartment",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564050952528,
+			"name": "更新部門",
+			"description": "",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":1,\n\t\"departmentName\":\"部門Ａ\"\n}"
+		},
+		{
+			"id": "3b241810-a46b-0351-3364-24a4632b6271",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/addDepartment",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564112277394,
+			"name": "新增部門",
+			"description": "",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"responses": [],
+			"rawModeData": "{\n\t\"departmentName\":\"部門F\"\n}"
+		},
+		{
+			"id": "3c6be4c6-1a67-866c-c2a5-6400608f93ba",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/findEmployeeById",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "33",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564048022192,
+			"name": "查詢員工ById",
+			"description": "",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"responses": []
+		},
+		{
+			"id": "543698d7-e8d7-fce3-9630-014e9a480c7e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/queryEmployee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564111511924,
+			"name": "查詢員工（多條件）",
+			"description": "",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":null,\n\t\"employeeNo\":null,\n\t\"age\": null,\n\t\"department\": {\n        \"departmentName\": null\n    },\n    \"pageNo\": 0,\n    \"pageSize\": 10\n}"
+		},
+		{
+			"id": "760aa000-b342-d089-86b5-036b7e9e64cf",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8811/findAllEmployee",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"data": null,
+			"dataMode": "params",
+			"name": "查詢所有員工",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1564042277292,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "809b5c68-4e5e-c2a2-f872-8e7ec01ccae7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/addEmployee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564112324867,
+			"name": "新增員工",
+			"description": "",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":null,\n\t\"name\":\"Lee\",\n\t\"employeeNo\":\"007\",\n\t\"departmentId\":66,\n\t\"gender\":\"0\",\n\t\"cellphone\":\"0921123123\",\n\t\"address\":\"台北\",\n\t\"age\":\"30\",\n\t\"createDate\":\"\",\n\t\"operationDate\":\"\"\n}"
+		},
+		{
+			"id": "ca53fe6c-dd43-a260-dc1c-b5dc038a8fd9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8811/updateEmployee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564113494696,
+			"name": "更新員工",
+			"description": "",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"responses": [],
+			"rawModeData": "{\n    \"id\": 65,\n    \"name\": \"cindy wu\",\n    \"employeeNo\": \"002\",\n    \"departmentId\": 1,\n    \"gender\": \"0\",\n    \"cellphone\": \"0921123123\",\n    \"address\": \"台北\",\n    \"age\": \"30\"\n}"
+		},
+		{
+			"id": "cf4366b2-9d1b-dc48-23fa-dcb821a92bd8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8811/findAllDepartment",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564050553784,
+			"name": "查詢所有部門",
+			"description": "",
+			"collectionId": "de04e4c3-e11e-77c1-0397-b2845bd554a5",
+			"responses": []
+		}
+	]
+}
